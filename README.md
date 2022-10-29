@@ -24,6 +24,6 @@ json-server --watch src/pages/api/data.json -p 3001
 
 ## Author
 
-Marcos Escobar
-Email: marcosaer2772@gmail.com (personal)
-marcos.escobar3@utp.ac.pa (institutional)
+- Marcos Escobar
+- Email: marcosaer2772@gmail.com (personal)
+- marcos.escobar3@utp.ac.pa (institutional)
