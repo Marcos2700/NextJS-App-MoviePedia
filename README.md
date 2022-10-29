@@ -13,7 +13,7 @@ npm run dev
 yarn dev
 ```
 
-##API route
+## API route
 
 To run de API is required install json-server.
 Then you can run in terminal the command:
