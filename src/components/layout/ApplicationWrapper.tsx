@@ -30,7 +30,7 @@ export const ApplicationWrapper: FC<PropsWithChildren<TProps>> = ({
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                Powered by <span className="">Rootstack</span>
+                Powered by <span className="">Marcos Escobar</span>
                 </a>
             </footer>
         </div>

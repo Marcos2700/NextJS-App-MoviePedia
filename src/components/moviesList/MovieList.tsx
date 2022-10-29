@@ -26,7 +26,7 @@ const useMovies = () => {
     const [movies, setMovies] = useState<IMovie[]>([]);
 
     useEffect(() => {
-        var sliceStart = Math.floor(Math.random() * 3175);
+        var sliceStart = Math.floor(Math.random() * 225);
         fetch(process.env.NEXT_PUBLIC_API_URL + '/movies')
         .then((res) => res.json())
         .then((data:IMovie[]) => setMovies(data.slice(sliceStart, sliceStart + 25)))
