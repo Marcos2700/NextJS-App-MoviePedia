@@ -28,7 +28,7 @@ const MovieDetailsPage: NextPage<TProps> = ({ movie }) => {
 };
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-    const res = await fetch('http://localhost:3001/movies/' + context.params?.id);
+    const res = await fetch(process.env.NEXT_PUBLIC_API_URL + '/movies/' + context.params?.id);
     const movie = await res.json();
 
     return{
