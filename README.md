@@ -6,7 +6,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
-```bash
+```
+bash
 npm run dev
 # or
 yarn dev
@@ -17,9 +18,9 @@ yarn dev
 To run de API is required install json-server.
 Then you can run in terminal the command:
 
-'''
+```
 json-server --watch src/pages/api/data.json -p 3001
-'''
+```
 
 ##Author
 Marcos Escobar
