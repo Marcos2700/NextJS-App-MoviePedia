@@ -1,4 +1,4 @@
-#MoviePedia: movie information app
+# MoviePedia: movie information app
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -22,7 +22,7 @@ Then you can run in terminal the command:
 json-server --watch src/pages/api/data.json -p 3001
 ```
 
-##Author
+## Author
 
 Marcos Escobar
 Email: marcosaer2772@gmail.com (personal)
